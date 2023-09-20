@@ -35,8 +35,9 @@ public class FoodController {
 	
 	@CrossOrigin(origins = "*", allowedHeaders = "*")
 	@PostMapping
-	public void insert(@RequestBody FoodRequestDTO data){
-		service.insert(data);
+	public ResponseEntity<Food> insert(@RequestBody FoodRequestDTO data){
+		Food entity = service.insert(data);
+		return ResponseEntity.ok().body(entity);
 	}
 	
 	@DeleteMapping(value="/{id}")

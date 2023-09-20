@@ -26,9 +26,9 @@ public class FoodService {
 		return repository.findAll();
 	}
 	
-	public void insert(@RequestBody FoodRequestDTO data) {
+	public Food insert(@RequestBody FoodRequestDTO data) {
 		Food foodData = new Food(data);
-		repository.save(foodData);
+		return repository.save(foodData);
 	}
 	
 	public void delete (Long id) {
