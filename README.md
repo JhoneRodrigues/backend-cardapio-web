@@ -2,7 +2,9 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/JhoneRodrigues/chess-system-java/blob/main/LICENSE) 
 ### Sobre o projeto
 
-Este projeto de Backend se destina a criar uma API que se conecta ao Banco de Dados PostgreSQL com o propósito de realizar operações de coleta, inserção, atualização e exclusão de informações. Meu objetivo principal é empregar esse projeto na integração com um Frontend, com o intuito de desenvolver uma aplicação completa para um site de gastronomia.
+Este projeto de backend tem como objetivo a criação de uma API que se conecta ao Banco de Dados PostgreSQL para executar operações de coleta, inserção, atualização e exclusão de informações. Foi adotada uma arquitetura baseada em boas práticas, composta por camadas de Repositório, Serviço e Controlador, além da implementação de entidades utilizando DTO (Data Transfer Object).
+
+Meu objetivo principal é empregar esse projeto na integração com um Frontend, com o intuito de desenvolver uma aplicação completa para um site de gastronomia.
 
 ## Requisições no Postman
 ### Coleta de todos os dados
