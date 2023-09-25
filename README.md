@@ -1,10 +1,13 @@
 # backend-cardapio-web
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/JhoneRodrigues/chess-system-java/blob/main/LICENSE) 
-### Sobre o projeto
+## Sobre o projeto
 
-Este projeto de backend tem como objetivo a criação de uma API que se conecta ao Banco de Dados PostgreSQL para executar operações de coleta, inserção, atualização e exclusão de informações. Foi adotada uma arquitetura baseada em boas práticas, composta por camadas de Repositório, Serviço e Controlador, além da implementação de entidades utilizando DTO (Data Transfer Object).
+Este projeto de backend tem como objetivo a criação de uma API que se conecta ao Banco de Dados PostgreSQL para executar operações de coleta, inserção, atualização e exclusão de informações. Meu objetivo principal é empregar esse projeto na integração com um Frontend, com o intuito de desenvolver uma aplicação completa para um site de gastronomia.
 
-Meu objetivo principal é empregar esse projeto na integração com um Frontend, com o intuito de desenvolver uma aplicação completa para um site de gastronomia.
+### Clean Architecture
+Este projeto passou por uma refatoração com o objetivo de aderir aos princípios da arquitetura limpa na interação com o banco de dados. O foco foi a criação de um sistema altamente organizado, com capacidade de teste e flexibilidade. Isso foi alcançado por meio de uma estrutura que separa claramente as responsabilidades e reduz ao mínimo as dependências indesejadas.
+
+Para fins de estudo, recomendo analisar o commit "Refactoring: Clean architecture in database interaction", onde você poderá observar as transformações feitas no projeto original para alcançar a arquitetura limpa.
 
 ## Requisições no Postman
 ### Coleta de todos os dados
@@ -30,7 +33,7 @@ Meu objetivo principal é empregar esse projeto na integração com um Frontend,
 
 ## Como clonar a aplicação
 ### Pré-requisito:
-Java e o Postman.
+Java 17.
 
 ### Comando Git para clonagem:
 
