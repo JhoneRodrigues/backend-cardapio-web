@@ -1,4 +1,4 @@
-package com.cardapio.exception;
+package com.cardapio.core.exception;
 
 public class ResourceNotFoundException extends RuntimeException{
 	

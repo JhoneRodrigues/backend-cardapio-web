@@ -1,8 +1,8 @@
-package com.cardapio.entity;
+package com.cardapio.core.domain;
 
 import java.util.Objects;
 
-import com.cardapio.DTO.FoodRequestDTO;
+import com.cardapio.core.DTO.FoodRequestDTO;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,6 +1,6 @@
-package com.cardapio.DTO;
+package com.cardapio.core.DTO;
 
-import com.cardapio.entity.Food;
+import com.cardapio.core.domain.Food;
 
 public record FoodResponseDTO(Long id, String title, String image, Integer price) {
 	public FoodResponseDTO(Food food) {

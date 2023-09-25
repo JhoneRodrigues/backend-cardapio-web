@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cardapio.DTO.FoodRequestDTO;
-import com.cardapio.DTO.FoodResponseDTO;
-import com.cardapio.entity.Food;
-import com.cardapio.service.FoodService;
+import com.cardapio.core.DTO.FoodRequestDTO;
+import com.cardapio.core.DTO.FoodResponseDTO;
+import com.cardapio.core.application.FoodService;
+import com.cardapio.core.domain.Food;
 
 @RestController
 @RequestMapping(value="foods")
